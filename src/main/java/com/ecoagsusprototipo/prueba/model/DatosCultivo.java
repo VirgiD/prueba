@@ -13,7 +13,6 @@ import lombok.Setter;
 public class DatosCultivo {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-
     private Long id; // Añadir el campo id si no está presente
     private double lat;
     private double lon;
